@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen("https://comforting-rolypoly-9d1f89.netlify.app/")
+app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
